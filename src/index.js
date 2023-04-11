@@ -1,8 +1,14 @@
+import $ from 'jquery'
+import 'popper.js'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap'
+
 import * as waffles from './scripts/viz4.js'
 import * as alluvial from './scripts/alluvial.js'
 import * as buckets from './scripts/viz1.js'
 import * as preprocess from './scripts/preprocess.js'
 import * as network from './scripts/scrolly.js'
+
 
 window.onbeforeunload = function () {
     window.scrollTo(0, 0);
